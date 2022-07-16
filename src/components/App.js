@@ -4,7 +4,6 @@ import PointsBar from './PointsBar';
 import Section from './Section';
 import Task from './Task';
 import Box from '@mui/material/Box';
-import { TagFacesTwoTone } from '@mui/icons-material';
 
 
 class App extends React.Component {
