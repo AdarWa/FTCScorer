@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "packjs": "webpack"
+    "packjs": "webpack",
+    "server": "cd public && python3 ../script.py 3000"
   },
   "repository": {
     "type": "git",
