@@ -5,7 +5,7 @@ import FormGroup from '@mui/material/FormGroup';
 
 const Section = (props) => {
   return (
-    <Box sx={{ border: '3px solid grey', width: 1}} className="auto"
+    <Box sx={{ border: '3px solid grey', width: 1, marginTop:props.top}} className="auto"
         >
          <Box className="autoLabel"
                 display="flex"

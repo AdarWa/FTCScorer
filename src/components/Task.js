@@ -9,8 +9,8 @@ import { TextField } from '@mui/material';
 const Task = (props) => {
     if(props.type === "checkbox"){
         return (
-            <Box>
-                <p style={{display:"inline"}}>{props.points}p</p>
+            <Box sx={{marginLeft:8}}>
+                <p style={{display:"inline"}}>{props.points} points</p>
                 <FormControlLabel control={<Checkbox defaultChecked={props.checked} />}
                  label={props.taskName}
                   style={{display:"inline", padding: 15}}
@@ -25,7 +25,7 @@ const Task = (props) => {
               '& > :not(style)': { m: 2 },
             }}
             >
-                <p style={{display:"inline-block"}}>{props.points}p</p>
+                <p style={{display:"inline-block"}}>{props.points} points</p>
                 <TextField
                     style={{display:"inline-block", width: "6rem"}}
                     className='numsel'
