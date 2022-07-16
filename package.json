@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "packjs": "webpack",
-    "server": "cd public && python3 ../script.py 3000"
+    "server": "cd public && python3 ../script.py"
   },
   "repository": {
     "type": "git",
